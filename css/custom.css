@@ -1,0 +1,416 @@
+/*
+===========================================
+Header Section
+==============================
+*/
+
+.header-section{
+    background-color: #f6f9f9;
+    padding: 24px 0;
+}
+.logo{
+    max-width: 20%;
+    flex-basis: 20%;
+}
+.logo a{
+    display: block;
+}
+.logo a img{}
+.navbar{
+    max-width: 80%;
+    flex-basis: 80%;
+}
+.navbar ul{
+    justify-content: flex-end;
+}
+.navbar ul li{}
+.navbar ul li a{
+    color: #2d3950;
+    font-size: 16px;
+    font-weight: 600;
+    display: block;
+    padding: 12px;
+    transition: all 0.3s;
+}
+.navbar ul li a:hover{
+    color: #15a4fa;
+}
+
+/*
+===========================================
+Header Section
+=============================
+*/
+
+/*
+===========================================
+Banner Section
+=============================
+*/
+
+.banner-section{
+    background-image: url(../images/strict.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.banner-section .row{
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+.banner-content{
+    text-align: center;
+    max-width: 50%;
+    flex-basis: 50%;
+}
+.banner-content h1{
+    font-size: 120px;
+    color: #fff;
+}
+.banner-content span{
+    width: 100%;
+    height: 2px;
+    background: #15a4fa;
+    display: block;
+}
+.banner-content p{
+    font-size: 20px;
+    color: #fff;
+    margin: 40px 0;
+}
+.banner-content button{
+    font-size: 18px;
+    color: #fff;
+    background: transparent;
+    border: 1px solid #15a4fa;
+    padding: 15px 35px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.arrow-down{
+	position: absolute;
+	color: #fff;
+	font-size: 30px;
+	left: 50%;
+	bottom: 0%;
+	transform: translateX(-50%);
+}
+
+
+/*
+===========================================
+Banner Section
+=============================
+*/
+
+/*
+===========================================
+Features Section
+=============================
+*/
+
+.features-section{
+    background: #f6f9f9;
+}
+.features-content{
+    text-align: center;
+    padding: 60px 0 80px 0;
+}
+.features-content h2{
+    font-size: 40px;
+    color: #2d3950;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.features-content p{
+    font-size: 16px;
+    color: #999;
+}
+
+/*
+===========================================
+Features Section
+=============================
+*/
+
+/*
+===========================================
+About Section
+=============================
+*/
+
+.about-section{}
+.icon{
+    min-width: 33.33%;
+    flex-basis: 33.33%;
+    text-align: center;
+    padding: 50px 30px;
+}
+.icon h2{
+    font-size: 22px;
+    color: #2d3950;
+    margin: 15px 0;
+}
+.icon p{
+    font-size: 15px;
+}
+.about-icon{
+    width: 100px;
+    height: 100px;
+    background:
+background: rgb(95,195,255);
+	background: -moz-linear-gradient(45deg,  rgba(95,195,255,1) 50%, rgba(72,186,255,1) 50%);
+	background: -webkit-linear-gradient(45deg,  rgba(95,195,255,1) 50%,rgba(72,186,255,1) 50%);
+	background: linear-gradient(45deg,  rgba(95,195,255,1) 50%,rgba(72,186,255,1) 50%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5fc3ff', endColorstr='#48baff',GradientType=1 );
+;
+    margin: auto;
+    line-height: 7;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.52);
+}
+.about-icon i{
+    font-size: 45px;
+    color: #fff;
+}
+
+/*
+===========================================
+About Section
+=============================
+*/
+
+
+
+/*
+===========================================
+Showcase Section
+=============================
+*/
+
+.showcase-section{
+    background: #f6f9f9;
+}
+.showcase-content{
+    text-align: center;
+    padding: 35px 0px 35px 0;
+}
+.showcase-content h1{
+    font-size: 40px;
+    color: #2d3950;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.showcase-content p{
+    font-size: 16px;
+    color: #999;
+}
+.work{
+    max-width: 33.33%;
+    flex-basis: 33.33%;
+    padding: 15px;
+}
+.work-details{
+    position: relative;
+}
+.work img{}
+.work .overlay{
+    background-color: rgba(21, 164, 250, 0.8);
+    width: 100%;
+    height: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all 0.4s;
+}
+.work:hover .overlay{
+	opacity: 1;
+	height: 100%;
+}
+.work a{}
+.work a i{}
+.work .plus{
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+     transform: translate(-40%, -50%);
+    width: 35px;
+    height: 35px;
+    display: block;
+    border: 1px solid white;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 4px;
+    opacity: 0;
+    transition: all 0.6s
+}
+.work:hover .plus{
+	opacity: 1;
+	top: 50%;
+}
+.work .link{
+    color: #fff;
+    position: absolute;
+    top: 60%;
+    left: 55%;
+    transform: translate(-55%, -50%);
+    width: 35px;
+    height: 35px;
+    display: block;
+    border: 1px solid white;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 4px;
+    opacity: 0;
+    transition: all 0.6s;
+}
+.work:hover .link{
+	opacity: 1;
+	top: 50%;
+}
+/*
+===========================================
+Showcase Section
+=============================
+*/
+
+
+/*
+===========================================
+Contact Section
+=============================
+*/
+
+.contact-section{
+    background-image: url(../images/contact.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 85vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: soft-light;
+}
+.contact-section .overlay{}
+.contact-content{
+    text-align: center;
+}
+.contact-content h1{
+    font-size: 40px;
+    color: #fff;
+    padding: 30px 0 10px 0;
+}
+.contact-content p{
+    font-size: 15px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.align{/* align-items: center; */}
+.form-section{
+    flex-basis: 50%;
+    max-width: 50%;
+    margin: auto;
+}
+.contact-form{
+}
+.contact-form input{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #999;
+    background-color: transparent;
+    color: #999;
+    margin-top: 15px;
+    border-radius: 3px;
+}
+.contact-form textarea{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #999;
+    background-color: transparent;
+    color: #999;
+    margin-top: 15px;
+    border-radius: 3px;
+}
+.contact-form ul{
+    align-items: center;
+}
+.contact-form ul li{
+    max-width: 50%;
+    flex-basis: 50%;
+}
+.contact-form ul li input{}
+.contact-form ul li label{
+    color: #fff;
+    margin-left: 10px;
+    font-size: 15px;
+}
+.contact-form ul li input[type="checkbox"]{
+    width: auto;
+}
+.contact-form ul li input[type="submit"]{
+    width: auto;
+    float: right;
+    padding: 10px 50px;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+/*
+===========================================
+Contact Section
+=============================
+*/
+
+/*
+===========================================
+Footer Section
+=============================
+*/
+
+.copyright-section{
+    background: #f6f9f9;
+    padding: 30px;
+}
+.center{
+    align-items: center;
+}
+.copyright{
+    max-width: 50%;
+    flex-basis: 50%;
+}
+.copyright p{
+    font-size: 15px;
+    color: #999;
+}
+.copyright p a{
+    color: #999;
+}
+.social{
+}
+.social ul{margin: 0 0 0 350px;}
+.social ul li{}
+.social ul li a{
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: #15a4fa;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+    margin-left: 10px;
+    color: #fff;
+    transition: all 0.3s;
+}
+.social ul li a:hover{
+    color: #2d3950;
+}
+
+
+/*
+===========================================
+Footer Section
+=============================
+*/
